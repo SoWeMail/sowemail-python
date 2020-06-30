@@ -5,5 +5,5 @@ six
 coverage
 codecov
 mock
-pytest==3.8.2
+pytest
 tox
