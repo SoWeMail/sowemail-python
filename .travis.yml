@@ -6,7 +6,7 @@ python:
   - '3.7'
   - '3.8'
 before_install:
-  - pip install pycodestyle coverage codecov
+  - pip install -r test-requirements.pip
 install:
   - pip install virtualenv --upgrade
   - make install

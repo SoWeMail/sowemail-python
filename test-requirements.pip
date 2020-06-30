@@ -6,4 +6,5 @@ coverage
 codecov
 mock
 pytest
+pycodestyle
 tox
