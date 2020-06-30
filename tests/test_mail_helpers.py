@@ -219,8 +219,7 @@ class UnitTests(unittest.TestCase):
                     },
                     {
                         "type": "text/html",
-                        "value": "<strong>Hello -name-, your URL is <a href=\"-github-\">here</a></strong> email sent 
-                        at -time-"
+                        "value": "<strong>Hi -name-, your URL <a href=\"-github-\">here</a></strong> email at -time-"
                     }
                 ],
                 "from": {
