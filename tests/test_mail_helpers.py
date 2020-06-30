@@ -203,9 +203,9 @@ class UnitTests(unittest.TestCase):
             to_emails=to_emails,
             subject=Subject('Hi -name-'),
             plain_text_content=PlainTextContent(
-                'Hello -name-, your URL is -github-, email sent at -time-'),
+                'Hi -name-, your URL -github-, email at -time-'),
             html_content=HtmlContent(
-                '<strong>Hello -name-, your URL is <a href=\"-github-\">here</a></strong> email sent at -time-'),
+                '<strong>Hi -name-, your URL <a href=\"-github-\">here</a></strong> email at -time-'),
             global_substitutions=global_substitutions,
             is_multiple=True)
 
@@ -215,7 +215,7 @@ class UnitTests(unittest.TestCase):
                 "content": [
                     {
                         "type": "text/plain",
-                        "value": "Hello -name-, your URL is -github-, email sent at -time-"
+                        "value": "Hi -name-, your URL -github-, email at -time-"
                     },
                     {
                         "type": "text/html",
@@ -767,23 +767,17 @@ class UnitTests(unittest.TestCase):
             "items": [
                 {
                     "text": "New Line Sneakers",
-                    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/"
-                             "8dda1131320a6d978b515cc04ed479df259a458d5d45d58b6b381cae0bf9"
-                             "588113e80ef912f69e8c4cc1ef1a0297e8eefdb7b270064cc046b79a44e21b811802.png",
+                    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/8dd.png",
                     "price": "$ 79.95"
                 },
                 {
                     "text": "Old Line Sneakers",
-                    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/"
-                             "3629f54390ead663d4eb7c53702e492de63299d7c5f7239efdc693b09b9b"
-                             "28c82c924225dcd8dcb65732d5ca7b7b753c5f17e056405bbd4596e4e63a96ae5018.png",
+                    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/362.png",
                     "price": "$ 79.95"
                 },
                 {
                     "text": "Blue Line Sneakers",
-                    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/"
-                             "00731ed18eff0ad5da890d876c456c3124a4e44cb48196533e9b95fb2b95"
-                             "9b7194c2dc7637b788341d1ff4f88d1dc88e23f7e3704726d313c57f350911dd2bd0.png",
+                    "image": "https://marketing-image-production.s3.amazonaws.com/uploads/007.png",
                     "price": "$ 79.95"
                 }
             ],

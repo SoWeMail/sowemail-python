@@ -102,7 +102,7 @@ Without Mail Helper Class
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following is the minimum needed code to send an email without the /mail/send Helper
-(`here <https://github.com/sendgrid/sendgrid-python/blob/master/examples/mail/mail.py#L27>`__ is a full example):
+(`here <https://github.com/sowemail/sowemail-python/blob/master/examples/mail/mail.py#L27>`__ is a full example):
 
 .. code:: python
 
@@ -150,11 +150,11 @@ License
 `The MIT License (MIT)`_
 
 .. _signup: https://sowemail.com/signup?source=sowemail-python
-.. _SOWEMAIL_API_KEY: https://app.sendgrid.com/settings/api_keys
+.. _SOWEMAIL_API_KEY: https://app.sowemail.com/settings/api_keys
 .. _sowerest: https://github.com/sowemail/sowerest-python
 .. _/mail/send Helper: https://github.com/sowemail/sowemail-python/tree/master/sowemail/helpers/mail
 .. _sendgrid-python: https://github.com/sendgrid/sendgrid-python
-.. _The MIT License (MIT): https://github.com/sendgrid/sendgrid-python/blob/master/LICENSE.md
+.. _The MIT License (MIT): https://github.com/sowemail/sowemail-python/blob/master/LICENSE.md
 
 .. |Build Status| image:: https://travis-ci.com/sowemail/sowemail-python.svg?branch=master
    :target: https://travis-ci.com/sowemail/sowemail-python

@@ -12,7 +12,6 @@ class RepoFiles(unittest.TestCase):
         ['./MANIFEST.in'],
         ['./LICENSE'],
         ['./README.rst'],
-        ['./USAGE.md'],
         ['./VERSION.txt']
     ]
 
