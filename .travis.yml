@@ -24,7 +24,7 @@ deploy:
   provider: pypi
   user: __token__
   password:
-    secure: 0er+qi9IhkAp9UqZ15EGPOVPtsc0W6UQqW5vcFhXPIdyCriDQBTvoyio3g8Q60P8j/Ft9xXYw56WqoL70ig6fF0Y4Rcnz6+N/rfcUEvirt4f9e3HfIFc60GSrbj6rm1FqRz66Qtdk4Mq+KDUqiqGrxe8Dbu+TXMGNLf8H3XnUkR+nFWWClrkT+XS42Zk/MMXdIocRGTp3Ptr2oXahws2vLQBY1j/oQBKJKsVRRXkRTJkIrE2GQwWDSZIbIgnZWzzdRZI3uZ/J2maPHxUGVdcFOJYUIFsI8zBtmqGYmlIpSSDi+VbSMnZ23CScXuQPC/HFmKjkbkav5Jm9Vicf48N+Yggs2KkGRbqxqvTElsw/fJPytoFIoVjDcx4n3XJCpBRWmqx+aZzIkpBBE5U3Ir0JL0ltXcK/sQ4xIL1CPTibuM+ecAMUFIVLWCfPUneH0WizyYS3nPFpwAwQDvIAZ/8K69mf4j56IjyvU71NMztSU7o/q3aCda9vPVX1KiJXUIxzEAAQA+F76wOJomo874UDjkK8O3jHi/87EkDjYMn6Xfn5/PMOhaioat+ZzaF9WxG9n4/B2mWDav0K+onoJ20d3TfKmN1fnpN+uBb+4MrM/cJAr4GEFbKkBMarbycltgcgHTDgb45YuG4x+7NJ2qHUhDkN3uSMwAFS3aZZiUO5vY=
+    secure: none
   skip_cleanup: true
   on:
     branch: master

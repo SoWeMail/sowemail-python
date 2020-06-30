@@ -7,14 +7,7 @@ Table of Contents
 
 -  `Installation <#installation>`__
 -  `Quick Start <#quick-start>`__
--  `Common Use Cases <#use-cases>`__
--  `General Usage <#usage>`__
--  `Processing Inbound Email <#processing-inbound-email>`__
--  `Announcements <#announcements>`__
--  `Roadmap <#roadmap>`__
--  `How to Contribute <#how-to-contribute>`__
--  `Troubleshooting <#troubleshooting>`__
--  `About <#about>`__
+-  `Thanks <#thanks>`__
 -  `License <#license>`__
 
 Installation
